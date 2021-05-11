@@ -88,8 +88,8 @@ $("#btn-enviar").click(function() {
 
 
 $(document).ready(function(){
-	$('#usuario').mask('00000000000')
 	$('#senha').mask('000000000');
+	$('#usuario').mask('00000000000');
 	$('#cpf').mask('000.000.000-00');
 	$('#assinatura').mask('000000');
 	$('#telefone').mask('(00)000000000');
